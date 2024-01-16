@@ -4,6 +4,8 @@ services:
   web:
     image: debarshri/wireflow
     build: .
+    labels:
+      shipyard.route: '/'
     ports:
       - 8083:80
     environment:
