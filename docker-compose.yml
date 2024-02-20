@@ -9,7 +9,7 @@ services:
     ports:
       - 8083:80
     environment:
-      - MONGO_URL="mongodb://localhost:27018 meteor --port 3050"
+      - MONGO_URL="mongodb://localhost:3050/meteor"
   db:
     image: mongo:latest
     ports:
